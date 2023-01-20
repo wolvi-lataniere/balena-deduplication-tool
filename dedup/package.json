@@ -1,0 +1,25 @@
+{
+  "name": "dedup",
+  "version": "1.0.0",
+  "description": "Deduplication tool for balena devices",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node index.ts"
+  },
+  "keywords": [
+    "deduplication",
+    "balena"
+  ],
+  "author": "Aurélien VALADE <aurelien.valade@balena.io>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^18.11.18",
+    "balena-cli": "^15.0.3",
+    "balena-sdk": "^16.32.1",
+    "typescript": "^4.9.4"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
